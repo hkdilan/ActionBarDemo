@@ -8,7 +8,7 @@ import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
 
-public class SimpleSherlockActionBar extends SherlockActivity {
+public class SherlockActionBar extends SherlockActivity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

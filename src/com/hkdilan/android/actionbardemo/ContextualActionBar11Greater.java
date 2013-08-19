@@ -16,8 +16,8 @@ import android.widget.Toast;
  * ActionMode is available api 11 or higher
  */
 @SuppressLint("NewApi")
-public class SimpleContextualActionBar extends Activity {
-	private static final String TAG = SimpleContextualActionBar.class.getSimpleName();
+public class ContextualActionBar11Greater extends Activity {
+	private static final String TAG = ContextualActionBar11Greater.class.getSimpleName();
 
 	private ActionMode mActionMode;
 	
@@ -36,7 +36,7 @@ public class SimpleContextualActionBar extends Activity {
 					return false;//pass event back to event flow.
 				}
 				
-				mActionMode = SimpleContextualActionBar.this.startActionMode(mActionCallback);
+				mActionMode = ContextualActionBar11Greater.this.startActionMode(mActionCallback);
 				editText.setSelected(true);
 				return true;//stop event flow
 			}

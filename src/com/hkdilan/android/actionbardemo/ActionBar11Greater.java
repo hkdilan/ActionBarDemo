@@ -12,7 +12,7 @@ import android.widget.Toast;
  * @author UnicornDCH
  *
  */
-public class SimpleActionBar extends Activity {
+public class ActionBar11Greater extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

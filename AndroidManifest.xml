@@ -11,8 +11,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/Theme.Sherlock" >
+        android:label="@string/app_name" >
         <activity
             android:name="com.hkdilan.android.actionbardemo.MainActivity"
             android:label="@string/app_name" >
@@ -22,9 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="SimpleActionBar" android:label="Simple ActionBar" />
-        <activity android:name="SimpleContextualActionBar" android:label="Simple Contextual ActionBar" />
-        <activity android:name="SimpleSherlockActionBar" android:label="Simple SherlockActionBar" />
+        <activity android:theme="@style/AppTheme" android:name="com.hkdilan.android.actionbardemo.ActionBar11Greater" android:label="Simple ActionBar" />
+        <activity android:theme="@style/AppTheme" android:name="com.hkdilan.android.actionbardemo.ContextualActionBar11Greater" android:label="Simple Contextual ActionBar" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="SherlockActionBar" android:label="Sherlock ActionBar" />
+        <activity android:theme="@style/Theme.Sherlock" android:name="SherlockContexualActionBar" android:label="Sherlock Contexual ActionBar" />
     </application>
 
 </manifest>
